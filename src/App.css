@@ -1,0 +1,41 @@
+.form-container {
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0002;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+  }
+  .close__form {
+    transform: translateX(-100%);
+  }
+  .App__btn{
+    font-size:1.5rem;
+    color:rgb(226, 14, 14);
+    padding:0.5em 2em;  
+    background-color: #555A88;
+
+  }
+  .App__btn {
+    margin-left: 540px;
+    font-size: 1rem;
+    color: white;
+    background-color: #885555;
+    border-radius: 30px 30px 30px 30px;
+  }
+  .user-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    width: 100%;
+    max-width: 1200px;
+    gap: 2em;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em;
+  }
+  
